@@ -1,15 +1,17 @@
 // TASK
 // Write code to find if the number is even or odd
 // Code Below
-#include<stdio.h>
+#include<iostream.h>
+#include<conio.h>
+
 void main()
 {
    int n;
- scanf("%d",&n);
+   cin>>n;
   if(n%2==0){
-    printf("Even");
+   cout<<"Even";
   }
   else{
-    printf("Odd");
+    cout<<"odd";
   }
 }
