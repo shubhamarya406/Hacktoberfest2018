@@ -4,11 +4,11 @@
 #include<stdio.h>
 int main()
 {
-   int n;
- scanf("%d",&n);
+   int num;
+ scanf("%d",&num);
   if(n%2==0)
-    printf("Even");
+    printf("%d is Even", num);
   else
-    printf("Odd");
+    printf("%d is Odd", num);
   return 0; 
 }
